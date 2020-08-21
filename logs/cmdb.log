@@ -238,3 +238,8 @@
 2020/08/21 15:53:38.850 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      995.7µs|   match|[44m GET     [0m /static/css/layout.css
 2020/08/21 15:53:45.186 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9908ms|   match|[44m GET     [0m /user/delete   r:/user/delete/*
 2020/08/21 15:53:45.195 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9828ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/21 15:55:38.610 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/21 15:55:44.164 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9835ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/21 15:55:45.982 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|       3.99ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/21 15:55:46.605 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9852ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/21 15:55:47.179 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /user/query   r:/user/query/*
