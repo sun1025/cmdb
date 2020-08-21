@@ -33,7 +33,7 @@ func (u *User) ValidPassword(password string) bool {
 
 // GenderText 性别显示
 func (u *User) GenderText() string {
-	if u.Gender == 0 {
+	if u.Gender == 1 {
 		return "女"
 	}
 	return "男"

@@ -1,0 +1,482 @@
+2020/08/06 13:03:57.371 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:12:40.491 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:20:41.602 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:25:27.413 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:27:38.440 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:36:32.638 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:36:32.639 [C] [asm_amd64.s:1357]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/08/06 13:36:55.660 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:36:55.662 [C] [asm_amd64.s:1357]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/08/06 13:38:11.736 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:38:11.737 [C] [asm_amd64.s:1357]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/08/06 13:39:29.530 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:39:29.531 [C] [asm_amd64.s:1357]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/08/06 13:44:36.890 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 13:44:36.891 [C] [asm_amd64.s:1357]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/08/06 13:53:54.355 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 14:00:11.194 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 14:17:29.729 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 14:17:29.730 [C] [asm_amd64.s:1357]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/08/06 14:17:36.556 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/06 14:17:36.557 [C] [asm_amd64.s:1357]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2020/08/07 13:45:13.006 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 13:45:40.608 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9906ms|   match|[44m GET     [0m /     r:/
+2020/08/07 13:45:40.616 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      2.992ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/07 13:45:40.640 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /static/css/login.css
+2020/08/07 13:45:40.643 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9784ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/08/07 13:45:40.701 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|      1.996ms| nomatch|[44m GET     [0m /favicon.ico
+2020/08/07 13:45:52.565 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/07 13:45:52.565 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|    58.8714ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/07 13:45:52.575 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9889ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:45:52.591 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     2.9908ms|   match|[44m GET     [0m /static/css/layout.css
+2020/08/07 13:46:15.134 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9871ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 13:46:16.613 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:19.654 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.0144ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:21.301 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      3.988ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:22.750 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 13:46:23.342 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9902ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:24.077 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9895ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:24.686 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:25.303 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9874ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 13:46:27.645 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 13:46:28.389 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:28.982 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9904ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 13:46:33.814 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9889ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:43:58.568 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 15:43:58.759 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     3.9885ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:43:58.769 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      2.992ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/07 15:44:05.430 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/07 15:44:05.430 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|    54.8522ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/07 15:44:05.440 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.0131ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:44:07.713 [D] [controller.go:306]  template Execute err: template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:44:07.713 [E] [server.go:2802]  template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:44:07.713 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9843ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:44:27.755 [D] [controller.go:306]  template Execute err: template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:44:27.755 [E] [server.go:2802]  template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:44:27.755 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9881ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:52:09.191 [D] [controller.go:306]  template Execute err: template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:52:09.191 [E] [server.go:2802]  template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:52:09.191 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:52:12.704 [D] [controller.go:306]  template Execute err: template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:52:12.704 [E] [server.go:2802]  template: user/modify.html:13:67: executing "user/modify.html" at <.form.Nickname>: can't evaluate field Nickname in type interface {}
+2020/08/07 15:52:12.704 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.0162ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:53:30.569 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 15:53:30.767 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9601ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:53:36.639 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 15:53:38.408 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:54:01.753 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.0158ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:54:10.290 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     5.9831ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 15:54:10.299 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:54:15.922 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9855ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 15:54:22.847 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      2.993ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 15:54:22.854 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9865ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:54:32.553 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9831ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:54:35.504 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 15:54:37.592 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:54:42.433 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 15:56:02.301 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      997.4µs|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/08/07 15:56:02.309 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9874ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/07 15:56:12.756 [E] [auth.go:45]  用户认证失败: kk 
+2020/08/07 15:56:12.758 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9784ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/07 15:56:19.853 [I] [auth.go:48]  用户认证成功:  
+2020/08/07 15:56:19.853 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|    54.8534ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/07 15:56:19.861 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:07:15.209 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9893ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:08:32.748 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 16:08:35.785 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.0134ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 16:08:36.793 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9841ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:08:39.007 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9877ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 16:08:45.976 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     3.9892ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 16:08:45.984 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9895ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:09:20.257 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 16:09:24.312 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     1.9968ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 16:09:24.319 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9604ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:09:28.368 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9821ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:09:30.833 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:09:31.489 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 16:11:43.308 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9764ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 16:11:48.943 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     3.9906ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 16:11:48.951 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9878ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:15:19.424 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9833ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:15:24.101 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     3.9902ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:15:24.108 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:15:30.869 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9862ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:11.087 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 17:16:14.309 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:17.966 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:18.980 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9899ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 17:16:19.917 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9874ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:21.260 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:16:25.340 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9942ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:16:25.348 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:44.397 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9833ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:47.100 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9852ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:49.060 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      4.043ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:16:52.237 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9681ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:16:52.245 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9894ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:54.108 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.0144ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:55.629 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.0253ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 17:16:56.526 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9843ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:57.197 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:16:57.699 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.0139ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 17:17:05.492 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 17:17:07.734 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      5.984ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:17:26.958 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9862ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:17:30.310 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9905ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:17:30.317 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:17:42.139 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9861ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:17:45.868 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:17:49.157 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9928ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:17:49.166 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:18:18.126 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9854ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:18:23.341 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9937ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:18:23.349 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.0122ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:18:28.149 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:18:37.484 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9937ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:18:37.493 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:19:08.369 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 17:19:10.433 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9828ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:19:12.117 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.0145ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:19:14.684 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9938ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:19:14.692 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.0177ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:19:50.734 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 17:19:50.801 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.0135ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:20:00.099 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     2.9918ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:20:00.108 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9871ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:20:14.122 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 17:20:15.498 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.0057ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 17:20:18.764 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     1.9944ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/07 17:20:18.772 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9861ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:27:55.359 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9514ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:28:01.431 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.0119ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 17:28:02.213 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9916ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 18:05:10.694 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/07 18:05:11.736 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     5.9833ms|   match|[44m GET     [0m /     r:/
+2020/08/07 18:05:11.747 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/07 18:05:11.911 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     4.9861ms| nomatch|[44m GET     [0m /favicon.ico
+2020/08/07 18:05:19.475 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/07 18:05:19.475 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|    59.8701ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/07 18:05:19.487 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9817ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 18:05:35.067 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9848ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/07 18:05:40.634 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.0109ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2020/08/07 18:05:56.100 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|   104.7463ms|   match|[46m POST    [0m /password/modify   r:/password/modify/*
+2020/08/07 18:06:03.250 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9827ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/07 18:06:04.593 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9709ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 18:06:05.770 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9835ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 18:06:07.109 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      997.9µs|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/08/07 18:06:07.116 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9662ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/07 18:06:13.481 [E] [auth.go:59]  用户认证失败: kk 
+2020/08/07 18:06:13.484 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|    56.8744ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/07 18:06:17.704 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/07 18:06:17.705 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|    54.8855ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/07 18:06:17.715 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.1403ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/07 18:06:44.116 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9814ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:24:48.104 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 11:26:07.016 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 11:34:55.000 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 11:37:08.572 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     3.9899ms|   match|[44m GET     [0m /     r:/
+2020/08/10 11:37:08.581 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9908ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/10 11:37:08.613 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /static/css/login.css
+2020/08/10 11:37:08.615 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     7.9777ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/08/10 11:37:08.716 [D] [server.go:2802]  |            ::1|[43m 404 [0m|     2.9916ms| nomatch|[44m GET     [0m /favicon.ico
+2020/08/10 11:38:09.894 [E] [auth.go:59]  用户认证失败: kk 
+2020/08/10 11:38:09.896 [D] [server.go:2802]  |            ::1|[42m 200 [0m|    59.8399ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 11:38:15.074 [E] [auth.go:59]  用户认证失败: kk 
+2020/08/10 11:38:15.075 [D] [server.go:2802]  |            ::1|[42m 200 [0m|    54.8532ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 11:38:18.977 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/10 11:38:18.977 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    53.9246ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 11:38:18.991 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:38:19.008 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /static/css/layout.css
+2020/08/10 11:38:22.495 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9884ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:38:27.334 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9854ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 11:38:29.119 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9863ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:39:38.644 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     8.9763ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:39:40.220 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9909ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:39:41.827 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9921ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:39:42.874 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9841ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:41:32.931 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     9.9972ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:42:30.755 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.9812ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:42:36.407 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:42:45.063 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9857ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:42:45.999 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9904ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:42:46.648 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9876ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:42:47.438 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 11:42:48.878 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:42:50.186 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.9576ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:12.826 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.0077ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:23.212 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.9813ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:24.586 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.0102ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:25.137 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9838ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:25.411 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.9807ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:25.625 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9824ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:25.906 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.0082ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:26.186 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      5.977ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:26.498 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0146ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:26.809 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.0175ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:27.114 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0125ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:27.433 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.0126ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 11:43:31.944 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9866ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:43:32.926 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:43:33.711 [D] [server.go:2802]  |            ::1|[42m 200 [0m|       3.99ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 11:43:35.509 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0167ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:15:39.705 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 13:15:51.548 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     1.9946ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:15:51.554 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9908ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/10 13:15:56.521 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/10 13:15:56.521 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    53.8558ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 13:15:56.530 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9871ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:15:58.646 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0165ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 13:16:16.488 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9882ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 13:16:20.118 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:16:22.654 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0139ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:16:23.125 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9904ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:16:24.213 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9902ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:16:25.053 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:16:26.974 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9875ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:16:27.934 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:16:28.805 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9883ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:17:23.734 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9562ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:17:24.534 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0117ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:17:26.686 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0142ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:17:27.294 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0097ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:17:28.934 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9876ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:18:09.350 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9863ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 13:18:13.592 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9876ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:18:15.749 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:18:16.316 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0099ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:18:16.623 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0146ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:18:19.197 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0128ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:18:20.206 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:18:22.093 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:18:22.620 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:18:23.295 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:19:36.135 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.0114ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:19:39.637 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9874ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:19:53.582 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9205ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:19:55.543 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:19:56.798 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:19:57.781 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      4.016ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:20:37.326 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.988ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:20:56.287 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9905ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:21:17.561 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     8.0011ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:21:18.254 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9889ms|   match|[44m GET     [0m /     r:/
+2020/08/10 13:21:19.781 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:21:20.774 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9856ms|   match|[44m GET     [0m /     r:/
+2020/08/10 13:21:21.829 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      2.992ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:21:22.782 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9861ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:21:23.661 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:21:26.789 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9884ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:10.738 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     7.9785ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 13:22:26.238 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9866ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:26.928 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:28.445 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.988ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:22:28.973 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9883ms|   match|[44m GET     [0m /     r:/
+2020/08/10 13:22:29.717 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:30.293 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9627ms|   match|[44m GET     [0m /     r:/
+2020/08/10 13:22:31.118 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:22:31.558 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9912ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:32.022 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0129ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:32.495 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9852ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:32.918 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0138ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:22:33.405 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9923ms|   match|[44m GET     [0m /     r:/
+2020/08/10 13:22:33.813 [D] [server.go:2802]  |            ::1|[42m 200 [0m|       3.99ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:22:34.205 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:37.629 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.5689ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 13:22:40.070 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9853ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:40.997 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9904ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 13:22:42.134 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9585ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:43.927 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0124ms|   match|[44m GET     [0m /     r:/
+2020/08/10 13:22:46.054 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9876ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:47.012 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:22:56.445 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9877ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 13:53:27.871 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0132ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:53:29.202 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 13:53:29.202 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 13:53:29.202 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.9807ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 13:54:24.886 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 13:54:27.245 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9866ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:54:30.398 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /     r:/
+2020/08/10 13:54:32.766 [D] [server.go:2802]  |            ::1|[42m 200 [0m|       3.99ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 13:54:35.695 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 13:54:35.695 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 13:54:35.695 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9846ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 16:45:29.066 [D] [server.go:2802]  |            ::1|[43m 404 [0m|     4.0012ms| nomatch|[44m GET     [0m /user/
+2020/08/10 16:45:33.480 [D] [server.go:2802]  |            ::1|[47m 302 [0m|           0s|   match|[44m GET     [0m /     r:/
+2020/08/10 16:45:33.485 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.9938ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/10 16:45:38.718 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/10 16:45:38.719 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    52.8984ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 16:45:38.725 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 16:45:48.556 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:45:48.556 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:45:48.556 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9854ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 16:48:29.180 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:48:29.181 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:48:29.181 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9866ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 16:49:13.171 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:49:13.171 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:49:13.171 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9923ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 16:55:09.070 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0036ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 16:55:41.893 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9888ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 16:55:44.701 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9851ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 16:55:47.252 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:55:47.252 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:55:47.252 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 16:56:52.561 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.9805ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css.map
+2020/08/10 16:57:04.022 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0137ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 16:58:14.013 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:58:14.014 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:58:14.014 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9871ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 16:58:36.564 [D] [controller.go:306]  template Execute err: template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:58:36.564 [E] [server.go:2802]  template: user/modify.html:20:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 16:58:36.564 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0189ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:23.679 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:23.679 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:23.679 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9872ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:48.064 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 17:05:51.619 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:51.619 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:51.619 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:52.393 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:52.393 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:52.393 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9922ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:52.826 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:52.826 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:52.826 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0194ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:53.297 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:53.297 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:53.297 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0157ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:53.714 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:53.714 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:53.714 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9921ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:54.155 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:54.155 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:54.155 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9881ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:54.545 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:54.545 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:54.545 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:54.827 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:54.827 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:54.827 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0181ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:55.065 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.065 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.065 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0201ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:55.297 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.297 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.297 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0164ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:55.536 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.536 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.536 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9898ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:55.762 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.762 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:05:55.762 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9928ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:05:58.840 [D] [server.go:2802]  |            ::1|[43m 404 [0m|     3.0186ms| nomatch|[44m GET     [0m /user
+2020/08/10 17:06:04.324 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /     r:/
+2020/08/10 17:06:05.989 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9894ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:06:07.669 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:06:07.669 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:06:07.669 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9857ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:13:37.526 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:13:37.526 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:13:37.526 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9882ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:15:23.354 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:15:23.354 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:15:23.354 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9925ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:15:26.771 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:15:26.771 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:15:26.771 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0131ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:20:13.348 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      4.986ms|   match|[44m GET     [0m /user/add   r:/user/add/*
+2020/08/10 17:20:27.335 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:20:30.607 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9864ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:20:35.079 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9862ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:21:15.742 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9828ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:21:16.741 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9889ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:21:18.020 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9904ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:21:18.876 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9857ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 17:21:19.765 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9947ms|   match|[44m GET     [0m /     r:/
+2020/08/10 17:21:20.771 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9884ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:23:14.925 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:23:14.925 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:23:14.925 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9871ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:24:15.298 [D] [server.go:2802]  |            ::1|[47m 302 [0m|      997.4µs|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/08/10 17:24:15.305 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9873ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/10 17:24:20.540 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/10 17:24:20.540 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    52.8599ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 17:24:20.546 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:24:22.804 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:22.804 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:22.804 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9878ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:24:36.297 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:36.297 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:36.297 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9909ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:24:40.888 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:40.888 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:40.888 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.0156ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:24:46.403 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:46.403 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:46.403 [D] [server.go:2802]  |            ::1|[42m 200 [0m|       3.99ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:24:52.007 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:52.007 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:24:52.007 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:25:03.069 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:03.069 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:03.069 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:25:06.544 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:06.544 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:06.544 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.0178ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:25:09.496 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:09.496 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:09.496 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9932ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:25:12.600 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:12.600 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:25:12.600 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:34:46.474 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0156ms|   match|[44m GET     [0m /     r:/
+2020/08/10 17:37:39.192 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 17:37:41.917 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9856ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:37:45.197 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:37:45.197 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:37:45.197 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:37:52.597 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9871ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/10 17:37:53.499 [D] [server.go:2802]  |            ::1|[42m 200 [0m|       3.98ms|   match|[44m GET     [0m /     r:/
+2020/08/10 17:37:54.356 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9899ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:37:55.026 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9915ms|   match|[44m GET     [0m /     r:/
+2020/08/10 17:37:55.869 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      5.984ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:38:00.259 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /     r:/
+2020/08/10 17:39:17.695 [D] [server.go:2802]  |            ::1|[47m 302 [0m|      2.992ms|   match|[44m GET     [0m /     r:/
+2020/08/10 17:39:17.702 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9908ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/10 17:39:24.956 [I] [auth.go:48]  用户认证成功: kk 
+2020/08/10 17:39:24.956 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    50.8916ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 17:39:24.963 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9894ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:39:26.684 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:39:26.684 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:39:26.684 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9894ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:39:37.429 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9872ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:39:42.291 [D] [controller.go:306]  template Execute err: template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:39:42.291 [E] [server.go:2802]  template: user/modify.html:21:38: executing "user/modify.html" at <eq .user.Gender 0>: error calling eq: invalid type for comparison
+2020/08/10 17:39:42.291 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:55:43.829 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9889ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:56:22.240 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     7.9794ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/10 17:56:22.247 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0156ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:56:25.001 [D] [server.go:2802]  |            ::1|[47m 302 [0m|      997.9µs|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/08/10 17:56:25.007 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9945ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/10 17:56:31.700 [I] [auth.go:48]  用户认证成功: admin 
+2020/08/10 17:56:31.700 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    49.8666ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/10 17:56:31.707 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:57:39.171 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9997ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:57:40.956 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.988ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:58:26.217 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     2.9925ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 17:59:02.260 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     2.9913ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/10 17:59:02.267 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9871ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 17:59:04.981 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 18:00:22.458 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.0136ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 18:00:26.918 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9874ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 18:00:32.765 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 18:00:33.670 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     2.9921ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/10 18:00:33.679 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.0015ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 18:00:36.812 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9907ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 18:00:46.066 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     2.9935ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/10 18:00:46.074 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/10 18:00:48.005 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9866ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 18:01:11.981 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      5.985ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 18:01:20.376 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/10 18:01:21.803 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      5.988ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/10 18:03:36.965 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9861ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*

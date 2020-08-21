@@ -1,0 +1,45 @@
+2020/08/12 09:17:35.580 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     7.9779ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/12 09:17:35.606 [D] [server.go:2802]  |            ::1|[47m 304 [0m|       6.98ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/08/12 09:17:35.606 [D] [server.go:2802]  |            ::1|[43m 404 [0m|     7.9782ms| nomatch|[44m GET     [0m / /css/login.css
+2020/08/12 09:17:42.503 [I] [auth.go:48]  用户认证成功: admin 
+2020/08/12 09:17:42.503 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    74.7996ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/12 09:17:42.529 [D] [server.go:2802]  |            ::1|[42m 200 [0m|    19.9473ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:17:42.553 [D] [server.go:2802]  |            ::1|[47m 304 [0m|     7.9789ms|   match|[44m GET     [0m /static/css/layout.css
+2020/08/12 09:17:52.893 [D] [server.go:2802]  |            ::1|[42m 200 [0m|    16.9543ms|   match|[44m GET     [0m /user/add.html   r:/user/add/*
+2020/08/12 09:18:16.029 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     9.9732ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css.map
+2020/08/12 09:19:21.649 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     7.9787ms|   match|[44m GET     [0m /user/add.html   r:/user/add/*
+2020/08/12 09:19:25.527 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     8.9761ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:19:29.363 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     7.9797ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:37:01.647 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/12 09:37:04.311 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      6.981ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/12 09:37:05.115 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9846ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:37:07.870 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9835ms|   match|[44m GET     [0m /user/add.html   r:/user/add/*
+2020/08/12 09:37:27.006 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      6.981ms|   match|[44m GET     [0m /user/add.html   r:/user/add/*
+2020/08/12 09:37:55.528 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     8.9761ms|   match|[44m GET     [0m /user/add.html   r:/user/add/*
+2020/08/12 09:37:58.453 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9841ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:38:19.742 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     8.9754ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:38:20.391 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9855ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/08/12 09:38:21.251 [D] [server.go:2802]  |            ::1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:38:32.509 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     6.9812ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 09:38:33.827 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9862ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 13:24:19.523 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     3.9893ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:24:19.533 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     1.9951ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/08/12 13:24:19.558 [D] [server.go:2802]  |            ::1|[43m 404 [0m|     9.9735ms| nomatch|[44m GET     [0m / /css/login.css
+2020/08/12 13:24:25.651 [I] [auth.go:48]  用户认证成功: admin 
+2020/08/12 13:24:25.651 [D] [server.go:2802]  |            ::1|[47m 302 [0m|    59.8396ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/08/12 13:24:25.660 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9568ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 13:24:27.194 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     7.9786ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:24:53.674 [D] [server.go:2802]  |            ::1|[42m 200 [0m|    11.9674ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:24:55.616 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9894ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:24:56.480 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9893ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:24:56.784 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9895ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:24:57.056 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9867ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:24:57.352 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9892ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:25:11.120 [D] [server.go:2802]  |            ::1|[42m 200 [0m|    25.9319ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 13:25:12.711 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     8.9756ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:25:31.787 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     5.9836ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:25:44.879 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     3.9887ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:25:45.904 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9867ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/08/12 13:25:49.954 [D] [server.go:2802]  |            ::1|[47m 302 [0m|     3.9902ms|   match|[46m POST    [0m /user/modify   r:/user/modify/*
+2020/08/12 13:25:49.965 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     4.9862ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/12 13:25:53.781 [D] [server.go:2802]  |            ::1|[42m 200 [0m|     8.9764ms|   match|[44m GET     [0m /user/add.html   r:/user/add/*
