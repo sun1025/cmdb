@@ -1,0 +1,111 @@
+2020/07/31 16:32:07.316 [E] [template.go:176]  parse template err: task/index.html template: task/index.html:21: function "t" not defined
+2020/07/31 16:32:07.316 [W] [beego.go:103]  template: task/index.html:21: function "t" not defined
+2020/07/31 16:34:36.883 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/07/31 16:34:47.121 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      3.989ms|   match|[44m GET     [0m /     r:/
+2020/07/31 16:34:47.129 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/07/31 16:34:47.160 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      997.9µs|   match|[44m GET     [0m /static/css/login.css
+2020/07/31 16:34:47.164 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     7.9784ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:34:47.231 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     4.9859ms| nomatch|[44m GET     [0m /favicon.ico
+2020/07/31 16:35:01.950 [I] [auth.go:48]  用户认证成功: kk 
+2020/07/31 16:35:01.950 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      55.85ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/07/31 16:35:01.960 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.1256ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:35:01.979 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/layout.css
+2020/07/31 16:35:01.984 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     4.9864ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:13.017 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9843ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:35:13.037 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     5.9833ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:14.011 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9807ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:35:14.029 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     3.9899ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:19.699 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9815ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:35:19.717 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|      3.988ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:20.515 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9838ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:35:20.536 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     4.9871ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:21.587 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9813ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:35:21.604 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     3.9887ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:22.004 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9807ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:35:22.026 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     4.9869ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:22.828 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9818ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:35:22.851 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     3.9882ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:35:23.242 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9846ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:35:23.263 [D] [server.go:2802]  |      127.0.0.1|[43m 404 [0m|     4.3274ms| nomatch|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:44:06.619 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      6.982ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:06.634 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css
+2020/07/31 16:44:09.564 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9811ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:44:13.468 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9812ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:14.196 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      6.981ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:44:16.133 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9793ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:44:16.645 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9815ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:18.932 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9777ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:44:19.598 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9779ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:21.901 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9808ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:44:24.227 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9813ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:25.035 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9843ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:44:25.996 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      6.981ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:41.646 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9787ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:44.717 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9794ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:44.987 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9841ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:45.251 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9841ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:46.877 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9789ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:49.155 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9833ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/07/31 16:44:53.477 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9784ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:44:59.341 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9787ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:45:02.740 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9815ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:45:05.166 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9755ms|   match|[44m GET     [0m /password/modify   r:/password/modify/*
+2020/07/31 16:45:11.092 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      6.981ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:45:28.174 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9784ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:45:28.915 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9889ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:45:29.691 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9841ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:45:32.035 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9848ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:46:37.162 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9859ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:46:38.348 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9813ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:46:39.548 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9812ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:46:40.635 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9843ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:46:41.109 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9784ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:46:41.524 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9815ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:46:42.342 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9763ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:46:42.942 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9771ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:46:43.634 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9838ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:46:44.155 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9841ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:46:44.787 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9843ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:46:45.772 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9815ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:47:16.429 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9813ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 16:47:36.239 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      996.7µs|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/07/31 16:47:36.249 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9133ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/07/31 16:47:43.196 [I] [auth.go:48]  用户认证成功: kk 
+2020/07/31 16:47:43.196 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|    53.8554ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/07/31 16:47:43.205 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9839ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:38.479 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9761ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:40.330 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9862ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:40.754 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9853ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:48.030 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/07/31 16:51:48.505 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     9.9724ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:49.876 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9787ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:50.267 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9807ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:51.427 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9787ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:51:52.757 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      998.1µs|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/07/31 16:51:56.278 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|      997.7µs|   match|[44m GET     [0m /auth/logout   r:/auth/logout/*
+2020/07/31 16:51:56.288 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9808ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2020/07/31 16:52:24.772 [I] [auth.go:48]  用户认证成功: kk 
+2020/07/31 16:52:24.772 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|     54.853ms|   match|[46m POST    [0m /auth/login   r:/auth/login/*
+2020/07/31 16:52:24.782 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9812ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:52:50.162 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/07/31 16:52:58.461 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|    11.7979ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:53:21.816 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/07/31 16:53:21.935 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      9.974ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:53:28.976 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     9.9736ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:54:19.383 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9761ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:54:20.020 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9835ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:54:20.942 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9787ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:54:21.708 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9831ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 16:54:40.886 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9756ms|   match|[44m GET     [0m /user/modify   r:/user/modify/*
+2020/07/31 16:59:26.521 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|      3.989ms|   match|[44m GET     [0m /static/components/bootstrap-4.5.0/css/bootstrap.min.css.map
+2020/07/31 16:59:34.770 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     9.9738ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:00:20.848 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9759ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:00:22.655 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     8.9756ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:00:25.415 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9779ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:00:26.215 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9782ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:00:26.966 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9802ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:00:27.671 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9782ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:00:47.677 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9806ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 17:01:04.040 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     9.9731ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/07/31 17:01:38.807 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9784ms|   match|[44m GET     [0m /home/index   r:/home/index/*
+2020/07/31 17:01:40.966 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     7.9789ms|   match|[44m GET     [0m /user/query   r:/user/query/*

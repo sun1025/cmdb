@@ -1,0 +1,73 @@
+package controllers
+
+import (
+	"fmt"
+	"net/http"
+	
+	"github.com/astaxie/beego"
+
+	"cmdb/base/controllers/auth"
+	"cmdb/forms"
+	"cmdb/services"
+)
+
+// UserController 用户管理控制器
+type TaskController struct {
+	auth.LayoutController
+}
+
+
+
+
+// Query 查询任务
+func (t *TaskController) Query() {
+	flash := beego.ReadFromRequest(&t.Controller)
+	fmt.Println(flash.Data)
+	
+	q := t.GetString("q")
+
+	t.Data["users"] = services.UserService.Query(q)
+	t.Data["q"] = q
+	t.TplName = "user/query.html"
+}
+
+func (t *TaskController) Modify() {
+	// 假设当前用户不能修改其他人的信息
+	
+	form := &forms.TaskModifyForm{}
+	// GET 获取数据
+	// POST 修改用户
+	if t.Ctx.Input.IsPost() {
+		if err := t.ParseForm(form); err == nil {
+			//验证数据
+			services.UserService.Modify(form)
+			
+			//存储消息
+			flash := beego.NewFlash()
+			flash.Set("notice", "修改用户信息成功")
+			flash.Error("error")
+			flash.Success("success")
+			flash.Warning("warning")
+			flash.Store(&c.Controller)
+			
+			c.Redirect(beego.URLFor("UserController.Query"), http.StatusFound)
+		}
+	} else if pk, err := t.GetInt("pk"); err == nil {
+		if user := services.UserService.GetByPk(pk); user != nil {
+			form.ID = user.ID
+			form.Name = user.Name
+		}
+	}
+	
+	t.Data["form"] = form
+	t.Data["xsrf_token"] = c.XSRFToken()
+	t.TplName = "user/modify.html"
+}
+
+// Delete user data
+func (t *TaskController) Delete() {
+	if pk, err := t.GetInt("pk"); err == nil && t.LoginUser.ID != pk {
+		services.UserService.Delete(pk)
+	}
+	t.Redirect(beego.URLFor("TaskController.Query"), http.StatusFound)
+}

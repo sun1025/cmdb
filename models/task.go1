@@ -1,0 +1,73 @@
+package models
+
+import (
+	"time"
+
+	"github.com/astaxie/beego/orm"
+
+	"cmdb/utils"
+)
+
+// Task 任务对象
+type Task struct {
+	ID           int        `orm:"column(id)"`
+	Name         string     `orm:"size(64)"`
+	Status       int        `orm:""`
+	StartTime    *time.Time `orm:"column(start_time)"`
+	CompleteTime *time.Time `orm:"column(complete_time);null"`
+	DeadlineTime *time.Time `orm:"column(deadline_time)"`
+	User         int 		`orm:""`
+	Content      string 	`orm:"null"`
+	DeletedAt    *time.Time `orm:"column(deleted_at);null"`
+}
+
+// // User 用户对象
+// type User struct {
+// 	ID         int        `orm:"column(id)"`
+// 	StaffID    string     `orm:"column(staff_id);size(32)"`
+// 	Name       string     `orm:"size(64)"`
+// 	Nickname   string     `orm:"size(64)"`
+// 	Password   string     `orm:"size(1024)"`
+// 	Gender     int        `orm:""`
+// 	Tel        string     `orm:"size(32)"`
+// 	Addr       string     `orm:"size(128)"`
+// 	Email      string     `orm:"size(64)"`
+// 	Department string     `orm:"size(128)"`
+// 	Status     int        `orm:""`
+// 	CreatedAt  *time.Time `orm:"auto_now_add"`
+// 	UpdatedAt  *time.Time `orm:"auto_now"`
+// 	DeletedAt  *time.Time `orm:"null"`
+// }
+
+// // ValidPassword 验证用户密码是否正确
+// func (u *User) ValidPassword(password string) bool {
+// 	return utils.CheckPassword(password, u.Password)
+// }
+
+// // GenderText 性别显示
+// func (u *User) GenderText() string {
+// 	if u.Gender == 0 {
+// 		return "女"
+// 	}
+// 	return "男"
+// }
+
+// StatusText 状态显示
+func (t *Task) StatusText() string {
+	switch t.Status {
+	case 0:
+		return "新建"
+	case 1:
+		return "开始"
+	case 2:
+		return "暂停"
+	}
+	case 3:
+		return "完成"
+	}
+	return "未知"
+}
+
+func init() {
+	orm.RegisterModel(new(Task))
+}
