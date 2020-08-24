@@ -243,3 +243,10 @@
 2020/08/21 15:55:45.982 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|       3.99ms|   match|[44m GET     [0m /home/index   r:/home/index/*
 2020/08/21 15:55:46.605 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9852ms|   match|[44m GET     [0m /user/query   r:/user/query/*
 2020/08/21 15:55:47.179 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     4.9869ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/21 15:59:00.355 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/08/21 15:59:08.380 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     6.9803ms|   match|[44m GET     [0m /     r:/
+2020/08/21 15:59:12.259 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     5.9835ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2020/08/21 15:59:23.017 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9889ms|   match|[44m GET     [0m /user/add.html   r:/user/add/*
+2020/08/21 16:00:17.703 [I] [user.go:27]  添加新用户成功 
+2020/08/21 16:00:17.703 [D] [server.go:2802]  |      127.0.0.1|[47m 302 [0m|    53.8558ms|   match|[46m POST    [0m /user/add   r:/user/add/*
+2020/08/21 16:00:17.710 [D] [server.go:2802]  |      127.0.0.1|[42m 200 [0m|     3.9897ms|   match|[44m GET     [0m /user/query   r:/user/query/*
